@@ -11,6 +11,16 @@ class Car {
         $this->brand = $brand;
         $this->color = $color;
     }
+
+    // Method
+
+    public function getCarInfo($brand, $color){
+        return "Brand: " . $this->brand . ", Color: " . $this->color;
+    }
+    
 }
 
 $car01 = new Car("Volvo", "Green");
+echo $car01->getCarInfo();
+echo "<br>";
+echo $car->vehicleType;
