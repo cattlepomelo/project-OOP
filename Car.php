@@ -12,3 +12,5 @@ class Car {
         $this->color = $color;
     }
 }
+
+$car01 = new Car("Volvo", "Green");
