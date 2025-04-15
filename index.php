@@ -6,13 +6,15 @@
     <title>Document</title>
 </head>
 <body>
+
+    <form action="/signup.inc.php" method="post">
+        <input type="text" name="username">
+        <input type="password" name="pwd">
+        <button>Signup</button>
+    </form>
+
 <?php    
-require_once "Car.php";
 
-$car01 = new Car("BMW", "green");
-
-$car01->setColor("white");
-echo $car01->getColor();
 ?>
 </body>
 </html>
