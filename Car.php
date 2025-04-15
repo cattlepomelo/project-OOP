@@ -19,8 +19,3 @@ class Car {
     }
     
 }
-
-$car01 = new Car("Volvo", "Green");
-echo $car01->getCarInfo();
-echo "<br>";
-echo $car->vehicleType;
